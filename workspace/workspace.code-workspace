@@ -35,7 +35,8 @@
       "steoates.autoimport",
       "streetsidesoftware.code-spell-checker",
       "zignd.html-css-class-completion",
-      "Angular.ng-template"
+      "angular.ng-template",
+      "dsznajder.es7-react-js-snippets"
     ]
   }
 }
