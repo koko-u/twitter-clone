@@ -1,0 +1,17 @@
+version: '3.2'
+services:
+  app:
+    image: "kokouu/nodejs-dev:v5"
+    container_name: app
+    volumes:
+      - type: bind
+        source: ./workspace
+        target: /usr/workspace
+      - type: volume
+        source: app_node_modules
+        target: /usr/workspace/twitter-clone/node_modules
+        volume:
+          nocopy: true
+    tty: true
+volumes:
+  app_node_modules:

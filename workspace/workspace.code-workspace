@@ -1,0 +1,41 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.cursorStyle": "block",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.foldingImportsByDefault": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "auto-close-tag.disableOnLanguage": [
+      "typescript"
+    ],
+    "editor.fontLigatures": true,
+    "eslint.workingDirectories": [
+      "./twitter-clone"
+    ]
+  },
+  "extensions": {
+    "recommendations": [
+      "christian-kohler.npm-intellisense",
+      "christian-kohler.path-intellisense",
+      "dbaeumer.vscode-eslint",
+      "editorconfig.editorconfig",
+      "eg2.vscode-npm-script",
+      "esbenp.prettier-vscode",
+      "lfs.vscode-emacs-friendly",
+      "ms-ceintl.vscode-language-pack-ja",
+      "rbbit.typescript-hero",
+      "steoates.autoimport",
+      "streetsidesoftware.code-spell-checker",
+      "zignd.html-css-class-completion",
+      "Angular.ng-template"
+    ]
+  }
+}
