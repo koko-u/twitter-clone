@@ -19,7 +19,10 @@
     "editor.fontLigatures": true,
     "eslint.workingDirectories": [
       "./twitter-clone"
-    ]
+    ],
+    "reactSnippets.settings.prettierEnabled": true,
+    "reactSnippets.settings.typescript": true,
+    "reactSnippets.settings.typescriptPropsStatePrefix": "type"
   },
   "extensions": {
     "recommendations": [
@@ -36,7 +39,8 @@
       "streetsidesoftware.code-spell-checker",
       "zignd.html-css-class-completion",
       "angular.ng-template",
-      "dsznajder.es7-react-js-snippets"
+      "dsznajder.es7-react-js-snippets",
+      "styled-components.vscode-styled-components"
     ]
   }
 }
